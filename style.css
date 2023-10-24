@@ -28,12 +28,14 @@ h2
 p
  {
   margin: 30px;
+  font-size: 18px;
  }
 
 main ol, main ul
 {
   margin-left: 60px;
   margin-bottom: 20px;
+  font-size: 18px;
 }
 
  main ol
@@ -51,5 +53,5 @@ footer
   background-color: #547fe3;
   padding: 25px;
   font-size: large;
-  
+
 }
