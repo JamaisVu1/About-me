@@ -1,0 +1,55 @@
+body
+{
+  background-color:#93a8bd ;
+}
+
+header
+{
+  background-color: rgba(57, 149, 230, 0.63);
+  color: rgb(5, 12, 12);
+  font-size: 50px;
+  padding: 20px;
+  text-align: center;
+}
+
+main
+{
+  margin: 30px;
+}
+
+h2
+{
+  font-size: larger;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+p
+ {
+  margin: 30px;
+ }
+
+main ol, main ul
+{
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+
+ main ol
+ {
+  list-style-type: decimal ;
+ }
+
+ main ul
+{
+  list-style-type: disc;
+}
+
+footer
+{
+  background-color: #547fe3;
+  padding: 25px;
+  font-size: large;
+  
+}
