@@ -8,13 +8,8 @@ Site giving information about myself, as well as quizzing the user.
 
 ### Links and Resources
 
-* Any Links you used as reference
+* https://stackoverflow.com/questions/65379554/why-does-my-variable-show-its-deprecated
 
 ### Lighthouse Accessibility Report Score
 
-* Provide a screenshot of your score after running a Lighthouse Accessibility report.
-
-### Reflections and Comments
-
-* Consider including the answers to your daily journal and submission questions here
-* This is also a good place to reflect on the tools and resources used and learned
+![Lighthouse score for lab 2](Lab-2.jpg)
