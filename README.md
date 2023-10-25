@@ -3,6 +3,7 @@
 ## About Me
 
 Site giving information about myself, as well as quizzing the user.
+Site also has a new guessing game with multiple choices.
 
 ### Author: Zachary Moore
 
@@ -13,3 +14,4 @@ Site giving information about myself, as well as quizzing the user.
 ### Lighthouse Accessibility Report Score
 
 ![Lighthouse score for lab 2](Lab-2.jpg)
+![Lighthouse score for lab 3]()
