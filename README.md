@@ -13,5 +13,5 @@ Site also has a new guessing game with multiple choices.
 
 ### Lighthouse Accessibility Report Score
 
-![Lighthouse score for lab 2](Lab-2.jpg)
-![Lighthouse score for lab 3]()
+![Lighthouse score for lab 2](images/Lab-2.jpg)
+![Lighthouse score for lab 3](images/lab-3.jpg)
