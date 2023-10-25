@@ -17,9 +17,56 @@ main
   margin: 30px;
 }
 
-section {
+.history {
   margin-bottom: 16px;
   width: 100%;
+  overflow: hidden;
+}
+
+.history .corps {
+  float: left;
+  margin-right: 10px;
+  width: 50%;
+}
+.history .info {
+  margin-left: 20px;
+  width: 50%;
+}
+
+.info {
+  width: 100%;
+  overflow: hidden;
+}
+
+.info .likes {
+  float: left;
+  width: 50%;
+  
+
+}
+
+.info .dislikes {
+  float: right;
+  width: 49%;
+
+
+}
+
+.movies {
+  margin: auto;
+  text-align: center;
+
+}
+.movies .ol {
+  text-align: center;
+}
+.movies .li {
+
+}
+
+h3 {
+  font-size: large;
+  font-weight: lighter;
 }
 
 h2
