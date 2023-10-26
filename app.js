@@ -87,8 +87,7 @@ switch (flooring) {
     break;
 
   case "no":
-  case "n":
-    //console.log('Trust me I do!');
+  case "n": //console.log('Trust me I do!');
     alert("Trust me I do!");
     break;
 }
@@ -113,23 +112,23 @@ let colors = ["blue", "purple", "green"];
 let guesses = 6;
 let correct = false;
 
-while( !correct && guesses > 0) {
+while (!correct && guesses > 0) {
   let loopGuess = prompt("What is one of my favorite colors?");
-  loopGuess= loopGuess.toLowerCase();
-  if( colors.includes(loopGuess)) {
+  loopGuess = loopGuess.toLowerCase();
+  if (colors.includes(loopGuess)) {
     alert("Thats right!");
     correct = true;
     rightAnswers++;
     break;
-   } else {
+  } else {
     console.log(loopGuess);
-      alert("Sorry, that isnt right!");
-      guesses--;
-    }
-    if (guesses === 0) {
-      alert("The correct answers were blue, purple, or green!")
-    }
+    alert("Sorry, that isnt right!");
+    guesses--;
   }
+  if (guesses === 0) {
+    alert("The correct answers were blue, purple, or green!")
+  }
+}
 
 
 alert("Thank you for playing " + userName + " ! You got " + rightAnswers + " correct!");
