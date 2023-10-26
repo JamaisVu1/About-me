@@ -5,8 +5,11 @@ userName = userName.toLowerCase();
 //console.log(userName);
 alert("Hello " + userName + " welcome to my site! I hope you like questions!");
 
+
+
 let rightAnswers = 0;
 
+function favoriteColor(){
 let colorGuess = prompt("My favorite color is blue, yes or no?");
 colorGuess = colorGuess.toLowerCase();
 
@@ -20,7 +23,11 @@ if (colorGuess === "yes" || colorGuess === "y") {
 } else {
   alert("Only yes/no or y/n answers only!");
 }
+}
 
+favoriteColor();
+
+function homeLocation(){
 let cityGuess = prompt("Am I from Maryland?");
 cityGuess = cityGuess.toLowerCase();
 
@@ -37,7 +44,11 @@ switch (cityGuess) {
     alert("Almost made it!");
     break;
 }
+}
 
+homeLocation();
+
+function petCat(){
 let petGuess = prompt("Do I love cats?");
 petGuess = petGuess.toLowerCase();
 
@@ -56,7 +67,11 @@ switch (petGuess) {
     alert("That is incorrect");
     break;
 }
+}
 
+petCat();
+
+function petDog(){
 let dogGuess = prompt("Do I love dogs?");
 dogGuess = dogGuess.toLowerCase();
 
@@ -74,7 +89,11 @@ switch (dogGuess) {
     rightAnswers++;
     break;
 }
+}
 
+petDog();
+
+function carpetGuess(){
 let flooring = prompt("Do I hate carpet with a passion?");
 flooring = flooring.toLowerCase();
 
@@ -91,7 +110,11 @@ switch (flooring) {
     alert("Trust me I do!");
     break;
 }
+}
 
+carpetGuess();
+
+function numberGuess(){
 for (let i = 0; i < 4; i++) {
   let random = prompt("Whats my favorite number between 0 and 10?");
   random = Number(random);
@@ -107,7 +130,11 @@ for (let i = 0; i < 4; i++) {
     alert("The right answer was 7!")
   }
 }
+}
 
+numberGuess();
+
+function colorGuess(){
 let colors = ["blue", "purple", "green"];
 let guesses = 6;
 let correct = false;
@@ -127,8 +154,12 @@ while (!correct && guesses > 0) {
   }
   if (guesses === 0) {
     alert("The correct answers were blue, purple, or green!")
-  }
+  } alert("Thank you for playing " + userName + " ! You got " + rightAnswers + " correct!");
+}
 }
 
+colorGuess();
 
 alert("Thank you for playing " + userName + " ! You got " + rightAnswers + " correct!");
+
+
