@@ -5,7 +5,7 @@
 Site giving information about myself, as well as quizzing the user.
 Site also has a new guessing game with multiple choices.
 
-### Author: Zachary Moore
+### Author: Zachary Moore and Natalie Stone
 
 ### Links and Resources
 
